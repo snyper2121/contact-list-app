@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <!-- MAIN SECTION -->
+    <div class="mainSection">
+
+      <div class="row" id="titles">
+        <div class="small-12 medium-6 column">
+              <h1>Contacts</h1>
+              <br>
+              <h2>Add a contact</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-6 columns">
+          <div class="column">
+
+            <label>First name
+              <input type="text" placeholder="" id="fName">
+            </label>
+
+            <label>Last name
+              <input type="text" placeholder="" id="lName">
+            </label>
+
+            <label>Phone number
+              <input type="text" placeholder="" id="phoneNumber">
+            </label>
+
+            <label>Street
+              <input type="text" placeholder="" id="streetName">
+            </label>
+
+            <label>City
+              <input type="text" placeholder="" id="cityName">
+            </label>
+
+            <label>State
+              <input type="text" placeholder="" id="stateName">
+            </label>
+
+          </div>
+        </div>
+
+        <div class="medium-6 columns">
+          <div class="column" id="displayInfo" >
+            <p>Here goes the information when the person pulls up the info.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="medium-2 column">
+          <div class="column">
+            <button type="button" class="success button" id="submitButton" onclick="submitData()">Submit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-6 column">
+          <div class="column">
+            <h2>Contacts:</h2>
+
+            <p>This is where the name of the contacts are going to get stored.</p>
+            <ul id="contactList">
+              <li></li>
+            </ul>          
+          </div>
+          
+        </div>
+        
+      </div>
+
+
+<!-- **************************************** -->
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

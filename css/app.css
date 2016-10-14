@@ -1,0 +1,24 @@
+h1, h2 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+input {
+	border-radius: 7px !important;
+}
+
+#titles {
+	margin: 0 auto;
+	padding-top: 1%
+}
+
+body {
+	background-color: #9CD3EA;
+}
+
+#resultArea {
+	padding-top: 5%;
+}
+
+.success.button {
+	border-radius: 50px;
+}
